@@ -1,0 +1,16 @@
+#ifndef _UTIL_H_
+#define _UTIL_H_
+
+//char Hex2Char(int i);
+//int Char2Hex(char c);
+
+int Hex2Char(int fromi,char * toc);
+int Char2Hex(char fromc,int * toi);
+
+int Bitstr2ByteArr(char * bs,char * ba);
+int ByteArr2Bitstr(char * ba,char * bs);
+
+int Int2ByteArr(int i,char * ba);
+int ByteArr2Int(char * ba,int * i);
+
+#endif
